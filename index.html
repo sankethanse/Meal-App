@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KETTLEBELL</title>
+      <!-- link to fontawesome -->
+    <script src="https://kit.fontawesome.com/c99451431d.js" crossorigin="anonymous"></script>
+    <!-- link to bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- link to css file  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+       <!-- navbar div -->
+        <div id="navbar">
+            <a href="index.html"><img id="nav-logo" src="photos/logo4.png" alt="logo"></a>
+            <a href="index.html" style="color:#000000;text-decoration:none;"><p id="site-name">Kettlebell</p></a>
+            <div id="fav"><a href="favorite.html" style="color:#000000;text-decoration:none;">Favorite</a></div>
+        </div>
+
+
+          <!-- searchbar div  -->
+        <div id="header">
+        <h1 style="margin-top: 20px; font-size: 3rem; font-family: Aerial;">Find Meals for you</h1>
+        <div id="flex">
+            <input type="text" id="search" placeholder="Search for meal">
+            <button id="search-bt" type="submit" onclick="searchmeal()"><i class="fa-brands fa-searchengin" ></i></button>
+        </div>
+        </div>
+
+    
+       <!-- main section will be updated  -->
+    <div id="meal" class="d-flex justify-content-around container flex-wrap mt-5"></div>
+       <!-- link to bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+    <!-- link to javascript file  -->
+    <script src="index.js"></script>
+</body>
+</html>
